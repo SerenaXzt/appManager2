@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+2018-3-30 09:00:43[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ec6a292: startup date [Fri Mar 30 09:00:43 CST 2018]; root of context hierarchy
+2018-3-30 09:00:44[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 09:05:39[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ec6a292: startup date [Fri Mar 30 09:05:39 CST 2018]; root of context hierarchy
+2018-3-30 09:05:40[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 09:07:31[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ec6a292: startup date [Fri Mar 30 09:07:31 CST 2018]; root of context hierarchy
+2018-3-30 09:07:31[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 09:08:11[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ec6a292: startup date [Fri Mar 30 09:08:11 CST 2018]; root of context hierarchy
+2018-3-30 09:08:12[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 09:11:55[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ec6a292: startup date [Fri Mar 30 09:11:55 CST 2018]; root of context hierarchy
+2018-3-30 09:11:56[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 10:03:41[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ec6a292: startup date [Fri Mar 30 10:03:41 CST 2018]; root of context hierarchy
+2018-3-30 10:03:42[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 10:03:58[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ec6a292: startup date [Fri Mar 30 10:03:58 CST 2018]; root of context hierarchy
+2018-3-30 10:03:58[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 10:07:34[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ec6a292: startup date [Fri Mar 30 10:07:34 CST 2018]; root of context hierarchy
+2018-3-30 10:07:34[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 10:08:00[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4ec6a292: startup date [Fri Mar 30 10:08:00 CST 2018]; root of context hierarchy
+2018-3-30 10:08:00[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+=======
+2018-3-30 16:37:50[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da: startup date [Fri Mar 30 16:37:50 CST 2018]; root of context hierarchy
+2018-3-30 16:37:51[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 16:38:27[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da: startup date [Fri Mar 30 16:38:27 CST 2018]; root of context hierarchy
+2018-3-30 16:38:27[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 16:38:38[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da: startup date [Fri Mar 30 16:38:38 CST 2018]; root of context hierarchy
+2018-3-30 16:38:38[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 16:39:12[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da: startup date [Fri Mar 30 16:39:12 CST 2018]; root of context hierarchy
+2018-3-30 16:39:12[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 16:39:30[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da: startup date [Fri Mar 30 16:39:30 CST 2018]; root of context hierarchy
+2018-3-30 16:39:30[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+2018-3-30 16:40:35[ INFO](AbstractApplicationContext.java:582) Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da: startup date [Fri Mar 30 16:40:35 CST 2018]; root of context hierarchy
+2018-3-30 16:40:35[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [applicationContext-mybatis.xml]
+>>>>>>> branch 'master' of https://github.com/SerenaXzt/appManager.git
