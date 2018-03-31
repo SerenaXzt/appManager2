@@ -37,9 +37,7 @@
         </section>
      <br/><br/>
         <section class="text-center">
-        	<a href="devLogin.jsp">开发者入口</a><br/><br/>
-        	<a href="backLogin.jsp">后台管理者入口</a><br/><br/><br/>
-        	<a href="regist.jsp">注册</a>
+        	注册成功  <a href="devLogin.jsp">点此</a>登录<br/><br/>
         </section>
     </div>
   </body>

@@ -21,6 +21,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.fasterxml.jackson.databind.annotation.JsonValueInstantiator;
+
 import cn.app.pojo.AppInfo;
 import cn.app.pojo.BackendUser;
 import cn.app.pojo.DevUser;
@@ -35,6 +37,8 @@ import cn.app.vo.UserVo;
 public class UserController {
 	@Autowired
 	private BackUserService buservice;
+	
+	int flag = 0;
 	
 	@RequestMapping(value="/userManager",method=RequestMethod.GET)
 	public String showUser(Model model) {
@@ -90,4 +94,16 @@ public class UserController {
 		}
 		return Msg.fail();
 	}
+	
+	@RequestMapping(value="/regist",method=RequestMethod.POST)
+	public String regist(@Valid BackendUser user) {
+		System.out.println("adduser==============");
+		user.setCreationdate(new Date());
+		if(buservice.addUser(user) > 0) {
+			flag = 1;
+			return "regist_success";
+		}
+		return "regist";
+	}
+	
 }

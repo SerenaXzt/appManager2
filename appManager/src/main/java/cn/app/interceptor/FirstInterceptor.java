@@ -13,12 +13,12 @@ import cn.app.tools.Constants;
 
 public class FirstInterceptor implements HandlerInterceptor {
 
-	private String[] devmethods = { "/appsUpdate", "/appAdd", "/showCategory", "/deleteApp",
-			"/appsPutOrDwon", "/categorys", "/appVersion", "/addVersion", "/download" };
+	private String[] devmethods = { "/appsUpdate", "/appAdd", "/showCategory", "/deleteApp", "/appsPutOrDwon",
+			"/categorys", "/appVersion", "/addVersion", "/download" };
 
-	private String[] backmethods = {"/appCheck"};
-	private String[] unchecks = { "/index", "/devLogin", "/backLogin","/logOut" };
-	
+	private String[] backmethods = { "/appCheck" };
+	private String[] unchecks = { "/index", "/devLogin", "/backLogin", "/logOut", "/regist", "/regist_success" ,"/validateUser"};
+
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
@@ -31,8 +31,8 @@ public class FirstInterceptor implements HandlerInterceptor {
 			}
 		}
 		BackendUser user = (BackendUser) session.getAttribute(Constants.USER_SESSION);
-		if(user == null){
-			response.sendRedirect(basePath+"/index.jsp");
+		if (user == null) {
+			response.sendRedirect(basePath + "/index.jsp");
 			return false;
 		}
 		if (user != null && user.getUsertype() == 1) {
@@ -41,7 +41,7 @@ public class FirstInterceptor implements HandlerInterceptor {
 				if (path2.contains(path)) {
 					System.out.println("aaa");
 					session.removeAttribute(Constants.USER_SESSION);
-					response.sendRedirect(basePath+"/goto.jsp");
+					response.sendRedirect(basePath + "/goto.jsp");
 					return false;
 				}
 			}
@@ -51,7 +51,7 @@ public class FirstInterceptor implements HandlerInterceptor {
 				if (path2.contains(path)) {
 					System.out.println("bbb");
 					session.removeAttribute(Constants.USER_SESSION);
-					response.sendRedirect(basePath+"/goto.jsp");
+					response.sendRedirect(basePath + "/goto.jsp");
 					System.out.println(path);
 					return false;
 				}
