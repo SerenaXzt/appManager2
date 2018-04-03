@@ -11,9 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import cn.app.pojo.BackendUser;
-import cn.app.pojo.DevUser;
 import cn.app.service.user.BackUserService;
-import cn.app.service.user.DevUserService;
 import cn.app.tools.Constants;
 import cn.app.vo.Msg;
 

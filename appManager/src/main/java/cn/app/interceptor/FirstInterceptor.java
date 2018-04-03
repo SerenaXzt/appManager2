@@ -8,7 +8,6 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 import cn.app.pojo.BackendUser;
-import cn.app.pojo.DevUser;
 import cn.app.tools.Constants;
 
 public class FirstInterceptor implements HandlerInterceptor {
@@ -17,7 +16,8 @@ public class FirstInterceptor implements HandlerInterceptor {
 			"/categorys", "/appVersion", "/addVersion", "/download" };
 
 	private String[] backmethods = { "/appCheck" };
-	private String[] unchecks = { "/index", "/devLogin", "/backLogin", "/logOut", "/regist", "/regist_success" ,"/validateUser"};
+	private String[] unchecks = { "/index", "/devLogin", "/backLogin", "/logOut", "/regist", "/regist_success",
+			"index.jsp" };
 
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
